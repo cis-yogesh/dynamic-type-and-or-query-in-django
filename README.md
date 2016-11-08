@@ -1,7 +1,7 @@
 # dynamic-type-and-or-query-in-django
 dynamic type and or query in django
 
-
+``` python
 # Inputs Are
 # >>> values = ['yogesh',56]
 # >>> types=['exact','lte']
@@ -29,3 +29,4 @@ def dynamic_query(fields, types, values, operator):
             return q
     else:
         return {}
+```
